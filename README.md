@@ -57,11 +57,12 @@ tine (*)------(3)------(6)---[8][9]------------(13)--------(16)
 Here, the node `(*)` is the root node and it is considered honest. 
 The `0`-bits in `w` correspond to honest rounds; 
 the `1`-bits correspond to adversarial rounds. 
-There are three tines. In each tine, 
+There are three tines (i.e., blockchains) in the execution of this adverary. 
+In each tine, 
 blocks from an honest round `h` are marked as `(h)` and the 
 blocks from an adversarial round `a` are marked as `[a]`. 
 
-Below are the full specification of the file ``optfork.py``.
+Below is the full specification of the file ``optfork.py``.
 
 ```
 $ ./optfork.py --help
