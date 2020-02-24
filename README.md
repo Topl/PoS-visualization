@@ -1,5 +1,5 @@
 # PoS-visualization
-A textual visualization of Proof-of-Stake (PoS) blockchains
+A textual visualization of Proof-of-Stake (PoS) blockchains.
 
 We present an adversarial strategy which attacks 
 the consistency property of PoS blockchain protocols 
@@ -41,7 +41,7 @@ https://eprint.iacr.org/2017/241.pdf.
 
 
 ## Example code
-Please refer to ``test.py`` for examples.
+Please refer to ``test.py`` for detailed examples.
 
 ```
 $ ./optfork.py -w 1101100110110110 -a branching
